@@ -1,0 +1,18 @@
+
+.divGlobal{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    column-gap: 4cm;
+    height: 100%;
+    margin: 30px;
+}
+
+a{
+    width: 100%;
+    height: 5cm;
+    
+}
+.example-card {
+    height: 50%;
+}
