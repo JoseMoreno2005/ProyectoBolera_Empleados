@@ -1,0 +1,37 @@
+@for(fecha of listaFechas;track fecha.numeroDia){
+
+<div class="mat-elevation-z8">
+    <table mat-table [dataSource]="dataSource">
+
+        <!--Numero Dia  -->
+        <ng-container matColumnDef="position">
+            <th mat-header-cell *matHeaderCellDef>Dia No. </th>
+            <td mat-cell *matCellDef="let element"> {{element.position}} </td>
+        </ng-container>
+
+        <!-- Dias -->
+        <ng-container matColumnDef="name">
+            <th mat-header-cell *matHeaderCellDef> Dia </th>
+            <td mat-cell *matCellDef="let element"> {{fecha.numeroDia}} </td>
+        </ng-container>
+
+        <!-- Horario -->
+        <ng-container matColumnDef="weight">
+            <th mat-header-cell *matHeaderCellDef> Horario </th>
+            <td mat-cell *matCellDef="let element"> {{empleados.horario}} </td>
+        </ng-container>
+
+        <!-- Puesto -->
+        <ng-container matColumnDef="symbol">
+            <th mat-header-cell *matHeaderCellDef> Puesto </th>
+            <td mat-cell *matCellDef="let element"> {{empleados.nombre_Puesto}} </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+
+    <mat-paginator [pageSize]="7" showFirstLastButtons>
+    </mat-paginator>
+</div>
+}

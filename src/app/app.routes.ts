@@ -1,5 +1,5 @@
 import { Routes } from '@angular/router';
-import { HorarioComponent } from './horario/horario.component';
+import { HorarioComponent } from './componentes/horario/horario.component';
 import { PeticionesComponent } from './componentes/peticiones/peticiones.component';
 import { FichajesComponent } from './componentes/fichajes/fichajes.component';
 import { PerfilComponent } from './componentes/perfil/perfil.component';

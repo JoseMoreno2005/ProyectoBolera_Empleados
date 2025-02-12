@@ -1,0 +1,44 @@
+[
+  {
+    "codigo_Empleado": 1001,
+    "nombre_Puesto": "caja",
+    "dia": "Lunes",
+    "horario": "Mañana"
+  },
+  {
+    "codigo_Empleado": 1001,
+    "nombre_Puesto": "Limpieza",
+    "dia": "Martes",
+    "horario": "Tarde"
+  },
+  {
+    "codigo_Empleado": 1001,
+    "nombre_Puesto": "caja",
+    "dia": "Miercoles",
+    "horario": "Noche"
+  },
+  {
+    "codigo_Empleado": 1001,
+    "nombre_Puesto": "caja",
+    "dia": "Jueves",
+    "horario": "Mañana"
+  },
+  {
+    "codigo_Empleado": 1001,
+    "nombre_Puesto": "caja",
+    "dia": "Viernes",
+    "horario": "Tarde"
+  },
+  {
+    "codigo_Empleado": 1001,
+    "nombre_Puesto": "caja",
+    "dia": "Sábado",
+    "horario": "Noche"
+  },
+  {
+    "codigo_Empleado": 1001,
+    "nombre_Puesto": "caja",
+    "dia": "Domingo",
+    "horario": "Mañana"
+  }
+]
